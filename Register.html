@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="./style.css">
+    <title>Dignans Catering</title>
+</head>
+
+<body>
+
+    <!--sidebar-->
+    <div class="sidebar">
+
+        <h1 class="heading">Register</h1>
+
+        <div class="sidebar-menu">
+            <a href="Index.html"><ion-icon name="storefront-outline"></ion-icon>Home</a>
+            <a href="Menu.html"><ion-icon name="fast-food-outline"></ion-icon>Menu</a>
+            <a href="Basket.html"><ion-icon name="basket-outline"></ion-icon>Basket</a>
+            <a href="Login.html"><ion-icon name="log-in-outline"></ion-icon>Login</a>
+            <a href="Contact.html"><ion-icon name="chatbubble-outline"></ion-icon>Contact</a>
+            <a href="About.html"><ion-icon name="information-circle"></ion-icon>About</a>
+        </div>
+
+    </div>
+
+    <!--main-->
+    <div class="main">
+        <div class="login-container">
+            <h2>Create an account</h2>
+            <form action="/submit-login" method="POST">
+                <label for="firstname">Firstname</label>
+                <input type="text" id="firstname" name="firstname" required>
+                <label for="surname">Surname</label>
+                <input type="text" id="surname" name="surname" required>
+                <label for="email">Email</label>
+                <input type="text" id="email" name="email" required>
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" required>
+                <button type="submit">Register</button>
+            </form>
+            <button onclick="document.location='linkedin.com'">Linkedin Register</button>
+        </div>
+    </div>
+
+</body>
+
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+</html>
