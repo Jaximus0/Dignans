@@ -243,3 +243,11 @@ body {
 .query-container button:hover {
     background-color: var(--darkGrey);
 }
+
+/*About*/
+
+.map {
+    color: var(--secondaryColour);
+    padding: left 20px;
+    text-align: center;
+}
