@@ -248,6 +248,6 @@ body {
 
 .map {
     color: var(--secondaryColour);
-    padding: left 20px;
+    padding-left: 20px;
     text-align: center;
 }
